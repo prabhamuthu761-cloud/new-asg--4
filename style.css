@@ -1,0 +1,459 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+   height: 100vh;
+   width: 100%;
+    color: white;
+    background-size: cover;
+    background-position: center;  
+    justify-content: space-between;
+    background: gray;
+}
+.main-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 400;
+    background-color:blue;
+    text-decoration: none;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: bold;
+    
+} 
+ nav ul li a:hover{
+    color:white
+ }
+ nav ul li a {
+   color: rgb(48, 193, 186);
+   text-decoration: none;
+ }
+ .content {
+    position: absolute;
+    top: 27%;
+    left:32%;
+    color: white;
+ }
+ #main{
+   color: #f03985;
+font-weight: bold;
+font-size: 45px;
+}
+#submain{
+   color: white;
+   font-size: 18px;
+   padding-left: 5%;
+   padding-top: 4%;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+#title{
+   font-size: 20px;
+   
+}
+ nav h3{
+    color: black;
+ }
+ .About-me{
+  background: gray;
+   width: 100%;
+   padding: 100px 35px;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+ }
+ .About-me img{
+   height:50vh;
+   width: 50%;
+   align-items: center;
+  padding-left: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #FF0B05;
+ }
+ .About-text{
+font-size: 30px;
+}
+.About-text h4{
+   font-size: 50px;
+   text-transform: capitalize;
+   margin-bottom: 30px; 
+   margin-left: 20px;
+}
+.About-text p{
+   font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+.box{ 
+    background: black;
+   height: 80vh;
+   
+
+}
+.box h1{
+   text-align: center;
+}
+.para{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+.test-2{
+   display: flex;
+   min-height: 15px;
+   align-items: center;
+   justify-content: center;
+}
+.test{
+   height: 400px;
+   width: 390px;
+   padding: 30px 40px;
+   background-color: rgb(48, 193, 186);
+   margin: 20px;
+   border-radius: 15px;
+   text-align: center;
+   position: relative;
+   box-shadow: 0px 0px 20px white;
+
+}
+.test h5{
+   color: #FF0B05;
+   font-size: 30px;
+   margin-bottom: 25px;
+}
+.pro-para p{
+   font-family: 'Times New Roman', Times, serif;
+}
+.card{ 
+  background:black;
+   height: 90vh;
+
+}
+.card h1{
+   text-align: center;
+}
+.pro-para{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #D7C7B7;
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+.pro-2{
+   display: flex;
+   min-height: 15px;
+   align-items: center;
+   justify-content: center;
+}
+.project{
+   height: 150px;
+   width: 390px;
+   padding: 30px 40px;
+   background-color: rgb(48, 193, 186);
+   margin: 20px;
+   border-radius: 20px;
+   text-align: center;
+   position: relative;
+   overflow: hidden;
+   transition: height 5s;
+}
+.project:hover{
+   height: 500px;
+   width: 390px;
+}
+.project h5{
+   color: #FF0B05;
+   font-size: 30px;
+   margin-bottom: 25px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.project img{
+   width:100px;
+   border-radius: 5px;
+}
+.Contact{
+   background-color: #D7C7B7;
+   height: 100vh;
+   
+}
+.input{
+   display: flex;
+   justify-content: space-between;
+   margin: 100px;
+   padding-left: 50px;
+
+}
+.msg{
+  display: flex;
+ 
+   box-sizing: border-box;
+   padding-left: 500px;
+}
+.msg textarea{
+   width: 500px;
+   height: 100px;
+}
+.contact{
+       background: black;
+
+   height: 90vh;
+   width: 100%;
+}
+.contact-box{
+   display: flex;
+   background-color: black;
+   box-shadow: 0px 0px 15px white;
+}
+.contact-left{
+   flex-basis: 60%;
+   padding: 40px 60px;
+}
+.contact-right{
+   flex-basis: 60%;
+   padding: 40px;
+   background-color: black;
+}
+.contact h3{
+   text-align: center;
+   font-weight: 900;
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+.input-rows{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+textarea{
+   width: 100%;
+   border-radius: 5px;
+}
+.button{
+   border-radius: 5px;
+   color:  rgb(48, 193, 186);;
+   background-color: black;
+}
+
+tr td:first-child{
+   padding-bottom: 10px;
+   padding-right: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   color:  rgb(48, 193, 186);;
+}
+.contact-right{
+   padding-top: 5px;
+   margin-left: 50px;
+}
+tr td:last-child{
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   text-align: center;
+}
+.footer{
+  background-color: black;
+   text-align: center;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   height: 20px;
+  
+   
+}
+.input-grp label{
+   color: rgb(48, 193, 186); ;
+}
+
+ 
+/* Mobile View (Up to 768px)  */
+@media (max-width: 768px) {
+  .main-top {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  nav ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 10px;
+  }
+
+  .content {
+    position: static;
+    text-align: center;
+ 
+    background-color: gray;
+  }
+
+  #main {
+    font-size: 28px;
+  }
+
+  #title {
+    font-size: 18px;
+  }
+
+  #submain {
+    font-size: 14px;
+  
+    color: white;
+  }
+
+  .About-me {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .About-me img {
+    width: 90%;
+    height: 20%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .box, .card {
+    height: auto;
+    padding: 20px;
+  }
+
+  .test-2, .pro-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .test, .project {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .project:hover {
+    height: auto;
+  }
+
+  .contact-box {
+    flex-direction: column;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%;
+    padding: 20px;
+  }
+
+  
+
+  .msg textarea,
+  textarea {
+    width: 100%;
+  }
+}
+
+/* tablet (769px to 1024px ) */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main-top {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  nav ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 10px;
+  }
+
+  .content {
+    position: static;
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+  }
+
+  #main {
+    font-size: 36px;
+  }
+
+  #title {
+    font-size: 22px;
+  }
+
+  #submain {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .About-me {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .About-me img {
+    height: 40vh;
+    padding: 0;
+    margin-bottom: 20px;
+    width: 40%;
+  }
+
+  .test-2, .pro-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .test, .project {
+    width: 80%;
+    margin: 15px 0;
+  }
+
+  .project:hover {
+    height: auto;
+  }
+
+  .box, .card {
+    height: auto;
+    padding: 30px;
+  }
+
+  .contact-box {
+    flex-direction: column;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%;
+    padding: 30px;
+  }
+
+ 
+
+  .msg textarea,
+  textarea {
+    width: 100%;
+  }
+}
+
+
+
+/* above the 1024px its a default position  */

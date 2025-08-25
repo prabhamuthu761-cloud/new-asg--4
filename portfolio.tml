@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <!-- home -->
+        <div class="header" >
+        
+        <nav class="main-top">
+            <h3 style="color: white;"> Portfolio</h3>
+            <ul>
+                <li> <a href="#"> Home </a></li>
+                <li> <a href="#"> About </a></li>
+                <li> <a href="#"> Skills</a></li>
+                <li> <a href="#"> Project </a></li>
+                <li> <a href="contactsec"> Contact </a></li>
+            </ul>
+        </div>
+        </nav>
+              <div class="content" id="homepage">
+                <h4 id="main" >Wellcome to My Portfolio<h4> <br> 
+                    <h5 id="title"> <strong>I'm PRABHA M</strong></h5>
+                  <p id="submain"> A passionate and aspiring Full Stack Developer currently learning <br>the MERN stack . A strong foundation in<br>  HTML, CSS, JavaScript, and continuous learning, <br></p>  
+        </div>
+        <!-- About -->
+        <section  class=" About-me" id="aboutsec">
+            <img src="images.png" alt=" My image">
+            <div class="About-text">
+                <h4>  <strong> ABOUT ME </strong></h4>
+                <h4 style="color: #166FE5;">  Full Stack Developer</h4>
+                <p>I’m PRABHA M , Bsc Chemistry degree completed for this year.  Aspiring full stack developer at intresting for this course.  </p>
+            </div>
+        </section>
+        <!-- skills -->
+        <div class="box"  id="">
+            <h1> <strong>Skills </strong></h1>
+            <div class="test-2">
+            <div class="test">
+                <h5>Frontend </h5>
+                <div class="para">
+                    <P >Frontend development refers to the part of a website or web application that users directly interact with.
+                         It involves creating the layout, design, and overall user experience using technologies like <strong style="color: #166FE5;"> HTML, CSS, and JavaScript.</strong>
+                         
+                    </P>
+                </div>
+            </div>
+             <div class="test">
+                <h5>Backend </h5>
+                <div class="para">
+                    <P>Backend development refers to the server-side of a web application that handles the logic, database interactions, and server configurations.
+                         It is the part of the website that users don’t see but is essential for everything to function properly. 
+                        
+                    </P>
+                </div>
+            </div>
+             <div class="test">
+                <h5>Database</h5>
+                <div class="para">
+                    <P>
+                        MongoDB is a popular NoSQL database used to store large amounts of data in a flexible, <strong style="color: #166FE5;">JSON-like format called documents.</strong>
+                         Unlike traditional SQL databases that use tables and rows, MongoDB stores data in collections of documents, making it easier to handle complex and unstructured data.
+                        </P>
+                </div>
+            </div>
+            </div>  
+        </div>
+        <!-- Project -->
+        <div class="card" id="">
+            <h1> <strong>Project </strong></h1>
+            <div class="pro-2">
+            <div class="project">
+                <img src="img1.jpeg" alt="image not found">
+                <h>Full Stack Developer</h5>
+                <div class=" pro-para">
+                
+                       
+                    </P>
+                </div>
+            </div>
+             <div class="project">
+                <img src="img2.png" alt="image not found">
+                <h5>Frondend Developer</h5>
+                <div class=" pro-para">
+                </div>
+            </div>
+             <div class="project">
+                <img src="img3.jpeg" alt="image not found ">
+                <h5>Backend Developer</h5>
+                <div class=" pro-para">
+                   
+                </div>
+            </div>
+            </div>  
+        </div>
+        <!-- Contact -->
+<div class="contact" id="contactsec">
+    <h3> <strong>Contact Me </strong> </h3>
+    <div class="contact-box">
+         <div class="contact-left"> <ul style="color: white;">Get in Touch</ul><br>
+            <form class="conact-label" >
+                <div class="input-rows">
+                <div class="input-grp">
+                    <label>Name</label>
+                    <input type="text" placeholder="Enter your Name" required>
+                </div>
+                <div class="input-grp">
+                    <label>Moblie Number</label>
+                    <input type="number" placeholder="Enter your number" required>
+                </div>
+                <div class="input-grp">
+                    <label> email </label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                </div> 
+                <label>Message</label>
+                <textarea rows="5" placeholder="leave your Message "></textarea>
+                <button class="button">Submit</button>
+            </form>
+            
+         </div>
+         <div class="contact-right">  <h4 style="text-align: center; color: white;">About me </h4> <br>
+            <table border="2px">
+            <tr>
+                    <td>Name</td>
+                    <td>PRABHA M</td>
+            </tr>
+                    <tr>
+                        <td> Qualification</td>
+                        <td> BSc Chemistry</td>
+                    </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td>prabhamuthu761@gmail.com</td>
+                                </tr>
+                                        <tr>
+                                            <td>Moblie Number </td>
+                                            <td>8072952032</td>
+                                        </tr>
+                                         </tr>
+                                        <tr>
+                                            <td>Native </td>
+                                            <td>Mamsapuram</td>
+                                        </tr>
+                                         </tr>
+                                        <tr>
+                                            
+
+            </table>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+ <footer class="footer">@Thank you for visiting </footer>
+</body>
+</html>
